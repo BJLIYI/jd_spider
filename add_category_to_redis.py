@@ -8,6 +8,7 @@ from mall_spider.settings import MONGODB_URL, REDIS_URL
 from mall_spider.spiders.jd_product import JdProductSpider
 
 """
+将分类信息拷贝到redis
 1. 在项目文件夹下创建 add_category_to_redis.py
 2. 实现方法 add_category_to_redis:
     1. 链接MongoDB
